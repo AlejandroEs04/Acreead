@@ -15,7 +15,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <nav className="navigation">
                         <ul>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
+                            <li><Link to="/portfolio">Projects</Link></li>
                             <li><Link to="/contact-me">Contact Me</Link></li>
                         </ul>
                     </nav>

@@ -7,6 +7,7 @@ import Portfolio from './views/home/Portfolio.tsx'
 import './styles/index.css'
 import { ThemeProvider } from './context/ThemeContext.tsx'
 import ContactMe from './views/home/ContactMe.tsx'
+import Resume from './views/home/Resume.tsx'
 
 const routes = [
   {
@@ -22,6 +23,11 @@ const routes = [
   {
     path: '/contact-me', 
     view: ContactMe, 
+    layout: Layout
+  },
+  {
+    path: '/resume',
+    view: Resume, 
     layout: Layout
   }
 ]
