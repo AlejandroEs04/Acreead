@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #111111;
+  --link: #111111;
+  --text-hover: rgba(0, 122, 93, 0.8);
+}
+
+:root[data-theme="dark"] {
+  --bg: #111111;
+  --text: #ffffff;
+  --link: #ffffff;
+  --text-hover: rgba(0, 255, 194, 1);
+}
+
+html {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color ease-in-out 0.2s;
+}
+
+p, a {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+a:hover {
+  color: var(--text-hover);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: all ease-in-out 0.2s;
+}
+
+.icon {
+  width: 2.2rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-icon {
+  color: var(--text);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.page-message {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 1.6rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 1.6rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1rem;
+}
+.navigation ul li {
+  list-style: none;
+}
