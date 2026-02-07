@@ -1,3 +1,4 @@
+import CardContainer from "../../components/CardContainer";
 import PresentationCard from "../../components/PresentationCard";
 
 export default function Index() {
@@ -17,6 +18,12 @@ export default function Index() {
                 <li><a href="/portfolio">Knowledges</a></li>
                 <li><a href="/portfolio">Services</a></li>
             </ul>
+
+            <div>
+                <CardContainer>
+                    <CardContainer.Title value="Software Development" />
+                </CardContainer>
+            </div>
         </div>
     )
 }

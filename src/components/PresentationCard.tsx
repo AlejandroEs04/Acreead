@@ -3,7 +3,7 @@ import styles from '../styles/presentationCard.module.css'
 export default function PresentationCard() {
     return (
         <div className={`${styles.container}`}>
-            <img src="/public/profile_image.jpeg" alt="Imagen de Perfil" className={`${styles.profileImage}`} />
+            <img src="/profile_image.jpeg" alt="Imagen de Perfil" className={`${styles.profileImage}`} />
 
             <div className={`${styles.profileData}`}>
                 <h4>Raphael Estrada</h4>
