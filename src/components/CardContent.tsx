@@ -1,5 +1,5 @@
-export default function CardContent({ value } : { value: string }) {
+export default function CardContent({ value, className } : { value: string, className?: string }) {
     return (
-        <p>{value}</p>
+        <p className={className}>{value}</p>
     )
 }

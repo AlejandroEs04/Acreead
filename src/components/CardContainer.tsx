@@ -3,6 +3,7 @@ import CardTitle from "./CardTitle";
 import CardContent from "./CardContent";
 import CardImage from "./CardImage";
 import styles from '../styles/card.module.css'
+import StarRate from "./StarRate";
 
 function CardContainer({ children } : { children?: ReactNode }) {
     return (
@@ -15,5 +16,6 @@ function CardContainer({ children } : { children?: ReactNode }) {
 CardContainer.Title = CardTitle;
 CardContainer.Content = CardContent;
 CardContainer.Image = CardImage;
+CardContainer.Rate = StarRate;
 
 export default CardContainer

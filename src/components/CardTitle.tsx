@@ -1,5 +1,5 @@
-export default function CardTitle({ value } : { value: string }) {
+export default function CardTitle({ value, className } : { value: string, className?: string }) {
     return (
-        <h3>{value}</h3>
+        <h3 className={className}>{value}</h3>
     )
 }

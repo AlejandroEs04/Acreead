@@ -34,6 +34,7 @@ html {
   font-variation-settings:
     "wdth" 100;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -138,12 +139,74 @@ body {
 .grid {
   display: grid;
 }
+.grid-cols-3 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+.gap-2 {
+  gap: 1rem;
+}
+.gap-3 {
+  gap: 1.5rem;
+}
+.gap-4 {
+  gap: 2rem;
+}
 
 .mt-1 {
   margin-top: 0.5rem;
 }
 .mt-2 {
   margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2.5rem;
+}
+
+.my-1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.my-2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.my-3 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.my-4 {
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .page-message {

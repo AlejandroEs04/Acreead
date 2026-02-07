@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    gap: 0.2rem;
+}
+.container svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #ccc;
+}
+.container .fill {
+    fill: var(--primary);
+}
